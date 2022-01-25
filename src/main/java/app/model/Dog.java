@@ -4,9 +4,9 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Cat extends Animal {
+public class Dog extends Animal {
     @Override
     public String toString() {
-        return "Im a Cat";
+        return "I'm dog";
     }
 }
